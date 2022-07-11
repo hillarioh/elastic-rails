@@ -108,6 +108,8 @@ GEM
       faraday (~> 1)
       multi_json
     erubi (1.10.0)
+    faker (2.21.0)
+      i18n (>= 1.8.11, < 2)
     faraday (1.10.0)
       faraday-em_http (~> 1.0)
       faraday-em_synchrony (~> 1.0)
@@ -267,6 +269,7 @@ DEPENDENCIES
   elasticsearch-model (~> 7.2)
   elasticsearch-persistence (~> 7.2)
   elasticsearch-rails (~> 7.2)
+  faker (~> 2.21)
   importmap-rails
   jbuilder
   pg (~> 1.1)
